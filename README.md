@@ -7,6 +7,8 @@ This project is an end-to-end data analysis pipeline for the `Superstore Sales` 
 
 ```
 Superstore Sales/
+├── requirements.txt
+├── dataset.csv
 ├── PostgreSQL/
 │   ├── Database Schema.png
 │   ├── DB normalizing.ipynb
@@ -16,8 +18,6 @@ Superstore Sales/
 │   ├── data_cleaning.py
 │   ├── database_setup.py
 │   ├── main.py
-│   ├── dataset.csv
-│   ├── requirements.txt
 ```
 
 ## How to Run the Project: Step-by-Step Instructions
