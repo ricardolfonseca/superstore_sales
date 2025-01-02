@@ -1,12 +1,12 @@
 import pandas as pd
 
 def clean_data(input_file, output_file):
-    # Load data
-    df = pd.read_csv(input_file)
-    
-    # Convert date columns to datetime
-    df['Order Date'] = pd.to_datetime(df['Order Date'], dayfirst=True)
-    df['Ship Date'] = pd.to_datetime(df['Ship Date'], dayfirst=True)
+    # Load data and parse date columns
+    df = pd.read_csv(
+        input_file,
+        parse_dates=['Order Date', 'Ship Date'],
+        dayfirst=True
+    )
     
     # Handle missing values
     df['Postal Code'] = df['Postal Code'].fillna(0)
