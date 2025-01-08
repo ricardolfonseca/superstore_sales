@@ -7,8 +7,6 @@ This project is an end-to-end data analysis pipeline for the `Superstore Sales` 
 
 ```
 Superstore Sales/
-├── requirements.txt
-├── dataset.csv
 ├── PostgreSQL/
 │   ├── Database Schema.png
 │   ├── DB normalizing.ipynb
@@ -18,6 +16,8 @@ Superstore Sales/
 │   ├── data_cleaning.py
 │   ├── database_setup.py
 │   ├── main.py
+│   ├── dataset.csv
+│   ├── requirements.txt
 ```
 
 ## How to Run the Project: Step-by-Step Instructions
@@ -37,7 +37,7 @@ Superstore Sales/
 
 3. **Normalize the Database**:
    - Open **pgAdmin** (PostgreSQL) tool.
-   - Execute the SQL queries in `DB normalizing.ipynb` to normalize the database into separate tables (`sales`, `orders`, `customers`, `products`, `locations`, `dim_ship_mode`).
+   - Execute the SQL queries in `DB normalizing.ipynb` to normalize the database into separate tables (`sales`,  `customers`, `products`, `locations`, `dim_ship_mode`).
 
 4. **Perform Exploratory Data Analysis (EDA)**:
    - Open **pgAdmin** or your SQL editor.
@@ -63,7 +63,7 @@ The `main.py` script:
 - Creates the `sales_data` table with appropriate column types.
 
 The `DB normalizing.ipynb` notebook:
-- Normalizes the database into separate tables (`sales`, `orders`, `customers`, `products`, `locations`, `dim_ship_mode`).
+- Normalizes the database into separate tables (`sales`, `customers`, `products`, `locations`, `dim_ship_mode`).
 - Ensures relationships and constraints are applied between tables.
 
 ### 3. **Exploratory Data Analysis**
