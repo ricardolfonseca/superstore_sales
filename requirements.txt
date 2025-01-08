@@ -1,5 +1,0 @@
-pandas
-sqlalchemy
-psycopg2
-prettytable
-ipython-sql
