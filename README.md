@@ -92,36 +92,6 @@ For detailed insights, refer to the `EDA.ipynb` notebook.
     pip install -r requirements.txt
     ```
 
-## Key Findings
-- **West** and **East** regions dominate sales, accounting for ~60% of total revenue.
-- **Phones** and **Chairs** are the top product sub-categories.
-- **Sean Miller** is the highest-spending customer.
-- Sales peak during **November**, especially in **2018**.
-
-For detailed insights, refer to the `EDA.ipynb` notebook.
-
-## Next Steps (Future Work)
-
-1. **Create a Dashboard in Power BI**:
-   - Design a dynamic dashboard in Power BI to present insights such as:
-     - Total sales by region.
-     - Monthly sales trends.
-     - Top-performing products and customers.
-     - Shipping performance by mode.
-
-2. **Sales Prediction**:
-   - Use machine learning models (e.g., ARIMA, Prophet, or regression models) in Python to forecast sales for the next year.
-   - Incorporate historical trends and seasonality patterns from the dataset.
-
-
-## Prerequisites
-- **Python**: Version 3.8 or higher
-- **PostgreSQL**: Version 12 or higher
-- Required Python libraries (install via `requirements.txt`):
-
-## Database Schema (when normalized)
-- Database schema: Refer to `Database Schema.png`.
-
 ## License
 This project is licensed under the MIT License. See `LICENSE` for details.
 
