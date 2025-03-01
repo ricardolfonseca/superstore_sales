@@ -79,6 +79,7 @@ The `EDA.ipynb` notebook:
 
 ### 4. **Database Queries**
 The `.EDA Queries.ipynb.layout` file contains structured SQL queries for performing EDA, which should be run in tools like **pgAdmin** or **DBeaver**.
+The `Procedures, triggers and views.ipynb` file contains structured SQL queries for creating automated processes.
 
 ## Key Findings
 - **West** and **East** regions dominate sales, accounting for ~60% of total revenue.
