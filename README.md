@@ -12,6 +12,8 @@ Superstore Sales/
 │   ├── DB normalizing.ipynb
 │   ├── EDA graph_monthly trend in sales over time.png
 │   ├── EDA.ipynb
+│   ├── Procedures, triggers and views.ipynb
+
 ├── Python/
 │   ├── data_cleaning.py
 │   ├── database_setup.py
