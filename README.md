@@ -49,6 +49,9 @@ Superstore Sales/
 5. **Review Visualizations**:
    - Refer to `EDA graph_monthly trend in sales over time.png` for a visual representation of monthly sales trends.
    - Use tools like Power BI or Tableau to create additional visualizations, if needed.
+  
+6. **Enhance efficiency**:
+   - Refer to `Procedures, triggers and views.ipynb` for enhancing the database with stored procedures, triggers and views.
 
 
 ## Project Workflow
